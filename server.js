@@ -1,9 +1,10 @@
+require('newrelic');
 var express = require('express');
 var bodyParser = require('body-parser');
 var morgan = require('morgan');
 var config = require('./config');
 var mongoose = require('mongoose');
-require('./newrelic');
+
 var app = express();
 
 var http = require('http').Server(app);
