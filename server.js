@@ -13,7 +13,11 @@ mongoose.connect(config.database, function (err) {  //Подключение к 
 		console.log(err);
 
 	} else {
+<<<<<<< HEAD
 		console.log('Connect to DB');
+=======
+		console.log('connect to DB');
+>>>>>>> c75647532791931aa64ed698373706bd543e80ee
 	}
 });
 
@@ -35,6 +39,10 @@ http.listen(config.port, function(err) {
 		console.log(err);
 			}
 			else {
+<<<<<<< HEAD
 				console.log("list Port 3000");
+=======
+				console.log("Listening Port 3000");
+>>>>>>> c75647532791931aa64ed698373706bd543e80ee
 			}
 });
